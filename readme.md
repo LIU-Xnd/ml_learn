@@ -1,6 +1,6 @@
 <<< Note >>>
 
-# Chapter 1: The ML Landscape
+# Chapter 1: The ML Landscape [NOTE](ch1_ml_landscape/note.md)
 
 Unsupervised; Supervised; Semisupervised; Reinforcement; 
 
