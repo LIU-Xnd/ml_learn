@@ -1,2 +1,2 @@
-<<< note chapter 2 >>> [BACK]("../readme.md")
+<<< note chapter 2 >>> [BACK](./../readme.md)
 

@@ -1,4 +1,4 @@
-<<< note chapter 1 >>> [BACK](../readme.md)
+<<< note chapter 1 >>> [BACK](./../readme.md)
 
 ### Reinforcement Learning
 
