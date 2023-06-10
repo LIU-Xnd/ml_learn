@@ -55,7 +55,7 @@ Wait! Before you look at the data any further, you need to create a test set, pu
 
 ### Create a test set
 
-<< Data snooping bias; Strata/Stratum>>
+<< Data snooping bias; Strata/Stratum >>
 
 To have a stable train/test split even after updating the dataset, a common solution is to use each instance’s identifier to decide whether or not it should go in the test set (assuming instances have a unique and immutable identifier).
 
@@ -65,9 +65,23 @@ The simplest function (of `sklearn.model_selection`) is `train_test_split()` ...
 
 Stratified sampling.
 
+- Create an income category attribute.
+- Should not have too many strata; each stratum should be large enough.
+
 ## Explore the data to gain insights.
 
+`data.plot(kind="scatter",x,y,alpha)`.
+
+`data.plot(kind="scatter",x,y,alpha,s,c,cmap="jet")`.
+
+`.corr()`. Only measures linear correlations.
+
+- `pandas.scatter_matrix()`.
+
+
 ## Prepare the data to better expose the underlying data patterns to Machine Learning algorithms.
+
+`sklearn.impute.SimpleImputer`.
 
 ## Explore many different models and shortlist the best ones.
 
