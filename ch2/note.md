@@ -83,6 +83,10 @@ Stratified sampling.
 
 `sklearn.impute.SimpleImputer`.
 
+`OrdinalEncoder`, `OneHotEncoder`.
+
+`sklearn.pipeline.Pipeline()`, `sklearn.compose.ColumnTransformer()`.
+
 ## Explore many different models and shortlist the best ones.
 
 ## Fine-tune your models and combine them into a great solution.
