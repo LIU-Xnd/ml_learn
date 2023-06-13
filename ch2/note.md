@@ -83,11 +83,21 @@ Stratified sampling.
 
 `sklearn.impute.SimpleImputer`.
 
+`sklearn.preprocessing`.
+
 `OrdinalEncoder`, `OneHotEncoder`.
 
-`sklearn.pipeline.Pipeline()`, `sklearn.compose.ColumnTransformer()`.
+`sklearn.pipeline.Pipeline()`, `sklearn.compose.ColumnTransformer()`, `sklearn.base.BaseEstimator`, `sklearn.base.TransformerMixin`.
 
 ## Explore many different models and shortlist the best ones.
+
+`sklearn.linear_model`.
+
+`.predict()`.
+
+The main ways to fix underfitting are to select a more powerful model, to feed the training alg with better features, or to reduce the constraints on the model.
+
+
 
 ## Fine-tune your models and combine them into a great solution.
 
