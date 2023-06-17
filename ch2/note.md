@@ -91,17 +91,38 @@ Stratified sampling.
 
 ## Explore many different models and shortlist the best ones.
 
-`sklearn.linear_model`.
+`sklearn.linear_model`, `sklearn.tree`, `.ensemble`.
 
-`.predict()`.
+`.predict()`. `sklearn.metrics`.
 
 The main ways to fix underfitting are to select a more powerful model, to feed the training alg with better features, or to reduce the constraints on the model.
 
+`sklearn.model_selection`, `.cross_val_score`.
 
+`joblib.dump()`, `joblib.load()`.
 
 ## Fine-tune your models and combine them into a great solution.
 
+### Grid search.
+
+```
+grid_search = GridSearchCV(
+    forest_reg, param_grid, cv=5, scoring='neg_mean_squared_error', return_train_score=True
+)
+
+grid_search.fit(housing_prepared, housing_labels)
+```
+
+`forest_reg` could be replaced by pipeline to treat some of the data preparation steps as hyperparams.
+
+P.S. I found out that you could use `dill` package to dump/load session (all variables) into a single file.
+
+### Randomized grid search
+
+### Ensemble methods
+
 ## Present your solution.
 
-8. Launch, monitor, and maintain your system.
+## Launch, monitor, and maintain your system.
 
+# Exercise [notebook](./exercise.ipynb)

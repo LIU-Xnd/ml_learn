@@ -23,3 +23,4 @@ It is often a good idea to try to reduce the dimension of your training data usi
 7. Present your solution.
 8. Launch, monitor, and maintain your system.
 
+# Chapter 3: Classfication [NOTE](ch3/note.md)
