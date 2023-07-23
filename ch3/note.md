@@ -21,3 +21,8 @@ Accuracy is generally not the preferred performance measure for clf.
 `.model_selection.cross_val_predict`
 
 `.metrics.confusion_matrix`
+
+### Tradeoff
+
+`.cross_val_predict,method="decision_function"`
+
