@@ -26,3 +26,4 @@ It is often a good idea to try to reduce the dimension of your training data usi
 # Chapter 3: Classfication [NOTE](ch3/note.md)
 
 # Jump to Part II: Neural Networks and Deep Learning
+
